@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>إلى هند ❤️</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(135deg, #170b18, #42152d, #210d24);
+    color: white;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.small-title {
+    color: #ffb6cb;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: clamp(55px, 12vw, 100px);
+    color: #ffb6cb;
+    text-shadow: 0 0 35px #ff4d85;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from { text-shadow: 0 0 15px #ff4d85; }
+    to { text-shadow: 0 0 45px #ff4d85; }
+}
+
+.hero p {
+    font-size: 18px;
+    color: #f6dce8;
+    margin: 20px 0;
+    line-height: 2;
+}
+
+button {
+    background: linear-gradient(135deg, #ff6b9b, #d52c68);
+    border: none;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 40px;
+    font-family: inherit;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 5px 25px #ff4d8560;
+    transition: .3s;
+}
+
+button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 35px #ff4d85;
+}
+
+section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    color: #ffb6cb;
+    margin-bottom: 35px;
+}
+
+.card {
+    max-width: 700px;
+    margin: auto;
+    padding: 35px;
+    background: #ffffff0c;
+    border: 1px solid #ffffff25;
+    border-radius: 25px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 10px 40px #0003;
+    line-height: 2.2;
+    color: #f8e5ee;
+    font-size: 17px;
+}
+
+.qualities {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.quality {
+    background: #ffffff10;
+    border: 1px solid #ffffff20;
+    padding: 25px;
+    border-radius: 20px;
+    width: 220px;
+    transition: .3s;
+}
+
+.quality:hover {
+    transform: translateY(-8px);
+    background: #ff4d8520;
+}
+
+.quality span {
+    font-size: 35px;
+}
+
+.quality h3 {
+    color: #ffb6cb;
+    margin: 10px;
+}
+
+#message {
+    display: none;
+    margin-top: 30px;
+    animation: appear 1s ease;
+}
+
+@keyframes appear {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    color: #ffb6cb;
+    font-size: 18px;
+}
+
+.heart {
+    position: fixed;
+    bottom: -30px;
+    color: #ff6b9b;
+    animation: float 7s linear infinite;
+    pointer-events: none;
+    z-index: -1;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(0);
+        opacity: 0;
+    }
+    20% { opacity: .7; }
+    100% {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="hero">
+
+    <div class="small-title">A LETTER FROM MY HEART</div>
+
+    <h1>هند ❤️</h1>
+
+    <p>
+        فيه كلام كتير جوايا نفسي أوصلهولك...<br>
+        ويمكن الصفحة دي تكون بداية الكلام.
+    </p>
+
+    <button onclick="showMessage()">
+        افتحي رسالتي ليكي ❤️
+    </button>
+
+    <div id="message" class="card">
+        يا هند، أنا عارف إن الاعتذار مش مجرد كلام،
+        وإن كلمة آسف مش كفاية لوحدها.
+
+        <br><br>
+
+        أنا آسف على أي حاجة زعلتك مني،
+        وعلى أي وقت حسيتك فيه إنك مش مقدّرة أو مش مهمة عندي.
+
+        <br><br>
+
+        مش هقول إني مكنتش بغلط،
+        لكن هقول إني عايز أتعلم من غلطاتي
+        وأثبتلك بأفعالي قبل كلامي إنك غالية عندي.
+
+        <br><br> 
+  ولازم ننسي كل الي فات ونبدا من الاول علي الي احنا اتفقنا عليه لان انا عايزك ومش عايز غيرك يبقي ف بيتي و ام عيالي 
+        
+        <br><br>
+
+        ❤️ بحبك يا هند ❤️
+    </div>
+
+</div>
+
+<section>
+    <h2 class="section-title">إنتِ غالية عندي ليه؟</h2>
+
+    <div class="qualities">
+
+        <div class="quality">
+            <span>❤️</span>
+            <h3>وجودك</h3>
+            <p>وجودك في حياتي ليه قيمة كبيرة.</p>
+        </div>
+
+        <div class="quality">
+            <span>🌹</span>
+            <h3>ضحكتك</h3>
+            <p>ضحكتك من الحاجات اللي بتفرح قلبي.</p>
+        </div>
+
+        <div class="quality">
+            <span>✨</span>
+            <h3>ذكرياتنا</h3>
+            <p>كل لحظة حلوة بينا ليها مكان جوايا.</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">وعد مني ليكي</h2>
+
+    <div class="card">
+        أوعدك إني أحاول أسمعك أكتر،
+        وأفهم زعلك بدل ما أجادلك فيه،
+        وأهتم بمشاعرك زي ما تستحقي.
+
+        <br><br>
+
+        مش هقولك إني شخص مبيغلطش،
+        لكن هقولك إني مستعد أتغير للأحسن.
+    </div>
+</section>
+
+<footer>
+    <h2>إلى هند... ❤️</h2>
+    <p>يمكن الكلام ميكفيش، بس قلبي كان عايز يقولك آسف.</p>
+    <br>
+    <p>Made with love ❤️</p>
+</footer>
+
+<script>
+function showMessage() {
+    const message = document.getElementById("message");
+
+    message.style.display = "block";
+
+    message.scrollIntoView({
+        behavior: "smooth",
+        block: "center"
+    });
+}
+
+// قلوب متحركة
+function createHeart() {
+    const heart = document.createElement("div");
+
+    heart.className = "heart";
+    heart.innerHTML = "♥";
+
+    heart.style.left = Math.random() * 100 + "vw";
+    heart.style.fontSize = (15 + Math.random() * 25) + "px";
+    heart.style.animationDuration = (5 + Math.random() * 5) + "s";
+
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+        heart.remove();
+    }, 10000);
+}
+
+setInterval(createHeart, 500);
+</script>
+
+</body>
+</html>
